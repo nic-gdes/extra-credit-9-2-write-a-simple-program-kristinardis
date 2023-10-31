@@ -1,23 +1,26 @@
+// Create a constant array variable with at least 5 items (animal names).
+const animals = ["Lion", "Elephant", "Tiger", "Giraffe", "Zebra"];
+console.log(animals);
 
-
-var name = "class";
-
-if (name === "five") {
-    alert("execute <p>");
+// Iterate through the array and output each item in the console using a for loop.
+for (let i = 0; i < animals.length; i++) {
+    console.log(animals[i]);
 }
 
-if (name === "four") {
-    alert("execute <p>");
-}
+// Create an object variable 'person' with 'firstName' and 'age' properties.
+const person = {
+    firstName: "John",
+    age: 25
+};
 
-if (name === "three") {
-    alert("execute <p>");
-}
+// Output the values of 'firstName' and 'age' to the console.
+console.log("First Name: " + person.firstName);
+console.log("Age: " + person.age);
 
-if (name === "two") {
-    alert("execute <p>");
-}
 
-if (name === "one") {
-    alert("execute <p>");
+// Check the age of the person with an if conditional statement.
+if (person.age >= 21) {
+    console.log("Take one down and pass it around");
+} else {
+    console.log("One fell down.");
 }
